@@ -1,6 +1,6 @@
 # My Portfolio — Eshini Nethmini
 
-Live: https://<your-gh-username>.github.io/<repo-name>/
+Live: https://ict-courses.github.io/ict2233-ca-02-EshiniN1003/
 
 ## Overview
 A modern, responsive personal portfolio built using React and Tailwind CSS.  
