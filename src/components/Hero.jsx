@@ -23,7 +23,7 @@ export default function Hero() {
         
         <p className="mt-4 text-white dark:text-gray-200 text-lg max-w-xl mx-auto">
           An empathetic leader who enjoys using rational thinking to tackle
-          business problems • IT Project Management
+          business problems in IT Project Management
         </p>
 
         
