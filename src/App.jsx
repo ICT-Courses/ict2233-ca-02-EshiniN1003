@@ -7,9 +7,13 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 
+
+const REPO_NAME = "/ict2233-ca-02-EshiniN1003"
+
 export default function App() {
   return (
-    <BrowserRouter>
+    
+    <BrowserRouter basename='/ict2233-ca-02-EshiniN1003/'>
         <div className="min-h-screen flex flex-col bg-white dark:bg-gray-950 transition-colors duration-300">
 
         <Navbar />
