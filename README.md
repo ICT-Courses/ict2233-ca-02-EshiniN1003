@@ -1,33 +1,16 @@
-# My Portfolio — Eshini Nethmini
+# React + Vite
 
-Live: https://ict-courses.github.io/ict2233-ca-02-EshiniN1003/
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Overview
-A modern, responsive personal portfolio built using React and Tailwind CSS.  
-It includes multiple sections such as Home, About, Projects, and Contact, along with a custom 404 page.  
-The site features dark mode, smooth UI design, and a fully component-based structure.
+Currently, two official plugins are available:
 
-## Setup
-1. `npm install`
-2. `npm run dev`
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Build & Deploy
-1. `npm run build`
-2. Deploy to GitHub Pages (or use `gh-pages`)
+## React Compiler
 
-## Features
-- React, Tailwind CSS, SCSS
-- Dark mode (persisted)
-- Projects pulled from GitHub API (optional feature)
-- Contact form (EmailJS or custom validation)
-- Responsive layout
-- Custom components & routing
-- Smooth animations
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Tech
-- React
-- Vite
-- Tailwind CSS
-- Sass/SCSS
-- react-icons
-- react-router-dom
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
