@@ -1,0 +1,9 @@
+// src/styles/global.scss
+$brand: #2563eb;
+$bg-light: #ffffff;
+$bg-dark: #0b1220;
+$muted: #6b7280;
+
+:root {
+  --brand: #{$brand};
+}
